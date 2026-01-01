@@ -1,16 +1,115 @@
-# React + Vite
+# 🚀 DevConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DevConnect** is a collaborative platform where developers can **post
+projects**, **find teammates**, and **apply to real-world tech
+projects**.\
+It's designed to help students, freelancers, and builders connect based
+on **skills, interests, and availability**.
 
-Currently, two official plugins are available:
+------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Concept
 
-## React Compiler
+A single place to: - Post your project idea - Find collaborators - Apply
+to projects - Manage applications - Build a public developer profile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+------------------------------------------------------------------------
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 👤 Authentication
+
+-   Secure authentication using **Clerk**
+-   Sign up / Sign in with modal support
+-   User profiles auto-created on first login
+
+### 📌 Projects
+
+-   Create and manage projects
+-   Define roles, responsibilities, and requirements
+-   Set last date to apply
+-   Automatic **Open / Closed** status handling
+-   Project deletion removes:
+    -   Applications
+    -   Wishlist references
+    -   Project itself
+
+### 📨 Applications
+
+-   Apply once per project (duplicate prevention)
+-   Real-time application tracking
+-   Application status:
+    -   Pending
+    -   Interviewing
+    -   Accepted
+    -   Rejected
+-   Disclaimer shown when accepted
+
+### ❤️ Wishlist
+
+-   Save / unsave projects
+-   Synced across sessions
+
+### 👤 Profiles
+
+-   Skills management
+-   External links (GitHub, LinkedIn, Portfolio, etc.)
+-   Platform detection with icons/emojis
+-   Public profile view
+
+### ⚡ UI & UX
+
+-   Responsive layout
+-   Consistent card-based UI
+-   Fixed-size project cards
+-   Gradient theme with clean typography
+-   Smooth transitions
+
+------------------------------------------------------------------------
+
+## 🛠 Tech Stack
+
+### Frontend
+
+-   React (Vite)
+-   Tailwind CSS
+-   ShadCN UI
+-   Lucide Icons
+
+### Backend / Services
+
+-   Firebase Firestore
+-   Firebase Security Rules
+-   Clerk Authentication
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+    src/
+     ├── components/
+     ├── firebase/
+     ├── pages/
+     ├── utils/
+
+------------------------------------------------------------------------
+
+## 🚀 Getting Started
+
+``` bash
+npm install
+npm run dev
+```
+
+------------------------------------------------------------------------
+
+## 📬 Contact
+
+📧 contact@devconnect.com
+
+------------------------------------------------------------------------
+
+## ⭐ Why This Project Matters
+
+DevConnect demonstrates real-world full-stack architecture, clean UI/UX,
+and scalable data modeling.
